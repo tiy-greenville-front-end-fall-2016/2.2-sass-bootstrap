@@ -1,0 +1,30 @@
+
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$grid-gutter-width: 20px !default;
+
+$container-desktop:            (1004px + $grid-gutter-width) !default;
+$container-large-desktop:      (1004px + $grid-gutter-width) !default;
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+/*
+Colors
+*/
+$blue: #000;
+
+/*
+Base Layout
+*/
+header{
+  .logo-container{
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+h1{
+  color: $blue;
+}
